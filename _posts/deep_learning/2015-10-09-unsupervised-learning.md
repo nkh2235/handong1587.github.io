@@ -104,12 +104,21 @@ Auto-encoder
 - intro: Arts et Métiers ParisTech
 - arxiv: [https://arxiv.org/abs/1707.01700](https://arxiv.org/abs/1707.01700)
 
+**Supervised Convolutional Sparse Coding**
+
+[https://arxiv.org/abs/1804.02678](https://arxiv.org/abs/1804.02678)
+
 ## Clustering
 
 **Deep clustering: Discriminative embeddings for segmentation and separation**
 
 - arxiv: [https://arxiv.org/abs/1508.04306](https://arxiv.org/abs/1508.04306)
 - github(Keras): [https://github.com/jcsilva/deep-clustering](https://github.com/jcsilva/deep-clustering)
+
+**Neural network-based clustering using pairwise constraints**
+
+- intro: ICLR 2016
+- arxiv: [https://arxiv.org/abs/1511.06321](https://arxiv.org/abs/1511.06321)
 
 **Unsupervised Deep Embedding for Clustering Analysis**
 
@@ -160,6 +169,11 @@ Auto-encoder
 - intro: Technical University of Munich
 - arxiv: [https://arxiv.org/abs/1801.07648](https://arxiv.org/abs/1801.07648)
 - github: [https://github.com/elieJalbout/Clustering-with-Deep-learning](https://github.com/elieJalbout/Clustering-with-Deep-learning)
+
+**Deep Continuous Clustering**
+
+- arxiv: [https://arxiv.org/abs/1803.01449](https://arxiv.org/abs/1803.01449)
+- github: [https://github.com/shahsohil/DCC](https://github.com/shahsohil/DCC)
 
 # Auto-encoder
 
@@ -284,6 +298,11 @@ testing it on the MNIST handwritten digits data.
 - intro: University of Edinburgh & RIKEN AIP
 - keywords: Deep Matching Autoencoders (DMAE)
 - arxiv: [https://arxiv.org/abs/1711.06047](https://arxiv.org/abs/1711.06047)
+
+**Understanding Autoencoders with Information Theoretic Concepts**
+
+- intro: University of Florida
+- arxiv: [https://arxiv.org/abs/1804.00057](https://arxiv.org/abs/1804.00057)
 
 # RBM (Restricted Boltzmann Machine)
 

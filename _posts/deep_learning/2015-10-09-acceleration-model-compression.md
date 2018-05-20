@@ -458,6 +458,28 @@ at INT8 deep learning operations than other FPGA DSP architectures"
 - intro: Aptiv & University of Wupperta
 - arxiv: [https://arxiv.org/abs/1801.06434](https://arxiv.org/abs/1801.06434)
 
+**Universal Deep Neural Network Compression**
+
+[https://arxiv.org/abs/1802.02271](https://arxiv.org/abs/1802.02271)
+
+**Paraphrasing Complex Network: Network Compression via Factor Transfer**
+
+[https://arxiv.org/abs/1802.04977](https://arxiv.org/abs/1802.04977)
+
+**Compressing Neural Networks using the Variational Information Bottleneck**
+
+- intro: Tsinghua University & ShanghaiTech University & Microsoft Research
+- arxiv: [https://arxiv.org/abs/1802.10399](https://arxiv.org/abs/1802.10399)
+
+**Adversarial Network Compression**
+
+[https://arxiv.org/abs/1803.10750](https://arxiv.org/abs/1803.10750)
+
+**Expanding a robot's life: Low power object recognition via FPGA-based DCNN deployment**
+
+- intro: MOCAST 2018
+- arxiv: [https://arxiv.org/abs/1804.00512](https://arxiv.org/abs/1804.00512)
+
 # Pruning
 
 **ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression**
@@ -493,6 +515,11 @@ at INT8 deep learning operations than other FPGA DSP architectures"
 
 [https://arxiv.org/abs/1801.07365](https://arxiv.org/abs/1801.07365)
 
+**Recovering from Random Pruning: On the Plasticity of Deep Convolutional Neural Networks**
+
+- intro: WACV 2018
+- arxiv: [https://arxiv.org/abs/1801.10447](https://arxiv.org/abs/1801.10447)
+
 # Quantized Neural Networks
 
 **Quantized Convolutional Neural Networks for Mobile Devices**
@@ -515,8 +542,13 @@ at INT8 deep learning operations than other FPGA DSP architectures"
 
 **Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference**
 
-- intro: Google
+- intro: CVPR 2018. Google
 - arxiv: [https://arxiv.org/abs/1712.05877](https://arxiv.org/abs/1712.05877)
+
+**Deep Neural Network Compression with Single and Multiple Level Quantization**
+
+- intro: AAAI 2018. Shanghai Jiao Tong University & University of Chinese Academy of Sciences
+- arxiv: [https://arxiv.org/abs/1803.03289](https://arxiv.org/abs/1803.03289)
 
 # Binary Convolutional Neural Networks / Binarized Neural Networks
 
@@ -567,6 +599,14 @@ at INT8 deep learning operations than other FPGA DSP architectures"
 
 - intro: Singapore University of Technology and Design
 - arxiv: [https://arxiv.org/abs/1712.02956](https://arxiv.org/abs/1712.02956)
+
+**Build a Compact Binary Neural Network through Bit-level Sensitivity and Data Pruning**
+
+[https://arxiv.org/abs/1802.00904](https://arxiv.org/abs/1802.00904)
+
+**From Hashing to CNNs: Training BinaryWeight Networks via Hashing**
+
+[https://arxiv.org/abs/1802.02733](https://arxiv.org/abs/1802.02733)
 
 # Accelerating / Fast Algorithms
 
@@ -623,11 +663,21 @@ at INT8 deep learning operations than other FPGA DSP architectures"
 - intro: Uber
 - project page: [https://eng.uber.com/sbnet/](https://eng.uber.com/sbnet/)
 - arxiv: [https://arxiv.org/abs/1801.02108](https://arxiv.org/abs/1801.02108)
+- github: [https://github.com/uber/sbnet](https://github.com/uber/sbnet)
 
 **Accelerating deep neural networks with tensor decompositions**
 
 - blog: [https://jacobgil.github.io/deeplearning/tensor-decompositions-deep-learning](https://jacobgil.github.io/deeplearning/tensor-decompositions-deep-learning)
 - github: [https://github.com/jacobgil/pytorch-tensor-decompositions](https://github.com/jacobgil/pytorch-tensor-decompositions)
+
+**A Survey on Acceleration of Deep Convolutional Neural Networks**
+
+[https://arxiv.org/abs/1802.00939](https://arxiv.org/abs/1802.00939)
+
+**Recurrent Residual Module for Fast Inference in Videos**
+
+- intro: CVPR 2018
+- arxiv: [https://arxiv.org/abs/1802.09723](https://arxiv.org/abs/1802.09723)
 
 # Knowledge Distilling / Knowledge Transfer
 
@@ -668,6 +718,12 @@ at INT8 deep learning operations than other FPGA DSP architectures"
 **model_compression: Implementation of model compression with knowledge distilling method**
 
 - github: [https://github.com/chengshengchan/model_compression](https://github.com/chengshengchan/model_compression)
+
+**Neural Network Distiller**
+
+- intro: Neural Network Distiller: a Python package for neural network compression research
+- project page: [https://nervanasystems.github.io/distiller/](https://nervanasystems.github.io/distiller/)
+- github: [https://github.com/NervanaSystems/distiller](https://github.com/NervanaSystems/distiller)
 
 # Code Optimization
 

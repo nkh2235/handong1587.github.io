@@ -67,6 +67,8 @@ tar xf file.tar.gz -C /root/Desktop/folder
 | task                                              | command                 |
 | :-----------------------------                    | :---------------------: |
 | Print system info                                 | cat /proc/version       |
+| Print kernel version                              | uname -a                |
+| Print distribution information                    | lsb_release -a          |
 | Print software info                               | whereis SOFEWARE        |
 |                                                   | which SOFEWARE          |
 |                                                   | locate SOFEWARE         |
@@ -76,7 +78,8 @@ tar xf file.tar.gz -C /root/Desktop/folder
 |                                                   | free -m                 |
 | Print pid info                                    | ps aux \| grep 'target_pid' |
 | Print graphics card version                       | nvcc --version          |
-| Print graphics card GPU info                      | nvidia-smi              |
+| Print graphics card GPU info                      | lspci  | grep -i vga    |
+| Print graphics card GPU running info              | nvidia-smi              |
 | Print graphics card GPU info dynamically          | watch -n0.1 nvidia-smi  |
 | Print disk free space                             | df -h                   |
 |                                                   | df -hl                  |
@@ -616,6 +619,14 @@ nohup ./runGenerareSSProposals.sh > runGenerareSSProposals_${time}.log 2>&1 &
 echo $! > save_runGenerareSSProposals_val_pid.txt
 ```
 
+# Hadoop
+
+**Delete a directory from Hadoop cluster**
+
+```
+hadoop fs -rm -r -f /user/the/path/to/your/dir
+```
+
 # Others
 
 **Hotkeys to speed up Linux CLI navigation:**
@@ -778,5 +789,5 @@ perl -lne '$seen{$_}++ and next or print;' data.txt > output.txt
 
 ```
 str="/aaaa/bbbbb/cccc"
-echo $str | tr "/" "\"
+echo $str | tr "/" "\n"
 ```

@@ -260,9 +260,10 @@ Compressed model is less than 500KB
 
 **Arbitrary Style Transfer In Real-Time With Adaptive Instance Normalization**
 
-- intro: Cornell University
+- intro: ICCV 2017. Cornell University
 - paper: [https://openreview.net/pdf?id=B1fUVMzKg](https://openreview.net/pdf?id=B1fUVMzKg)
 - github(Torch): [https://github.com/xunhuang1995/AdaIN-style](https://github.com/xunhuang1995/AdaIN-style)
+- github(TensorFlow): [https://github.com/elleryqueenhomels/arbitrary_style_transfer](https://github.com/elleryqueenhomels/arbitrary_style_transfer)
 
 **Picking an optimizer for Style Transfer**
 
@@ -325,6 +326,23 @@ Compressed model is less than 500KB
 **Improved Style Transfer by Respecting Inter-layer Correlations**
 
 [https://arxiv.org/abs/1801.01933](https://arxiv.org/abs/1801.01933)
+
+**Face Destylization**
+
+[https://arxiv.org/abs/1802.01237](https://arxiv.org/abs/1802.01237)
+
+**Unsupervised Typography Transfer**
+
+[https://arxiv.org/abs/1802.02595](https://arxiv.org/abs/1802.02595)
+
+**Stereoscopic Neural Style Transfer**
+
+- intro: CVPR 2018
+- arxiv: [https://arxiv.org/abs/1802.10591](https://arxiv.org/abs/1802.10591)
+
+**Arbitrary Style Transfer with Deep Feature Reshuffle**
+
+[https://arxiv.org/abs/1805.04103](https://arxiv.org/abs/1805.04103)
 
 ## Neural Art On Audio
 
@@ -566,6 +584,11 @@ Compressed model is less than 500KB
 
 - paper: [http://homes.cs.washington.edu/~kemelmi/Transfiguring_Portraits_Kemelmacher_SIGGRAPH2016.pdf](http://homes.cs.washington.edu/~kemelmi/Transfiguring_Portraits_Kemelmacher_SIGGRAPH2016.pdf)
 
+**Stylize Aesthetic QR Code**
+
+- intro: Zhengzhou University & Zhejiang University
+- arxiv: [https://arxiv.org/abs/1803.01146](https://arxiv.org/abs/1803.01146)
+
 ## Image Colorization
 
 **Deep Colorization**
@@ -666,6 +689,19 @@ Compressed model is less than 500KB
 
 - intro: University of Tokyo
 - arxiv: [https://arxiv.org/abs/1706.06918](https://arxiv.org/abs/1706.06918)
+
+**Interactive Deep Colorization With Simultaneous Global and Local Inputs**
+
+[https://arxiv.org/abs/1801.09083](https://arxiv.org/abs/1801.09083)
+
+**Image Colorization with Generative Adversarial Networks**
+
+[https://arxiv.org/abs/1803.05400](https://arxiv.org/abs/1803.05400)
+
+**Learning to Color from Language**
+
+- intro: Allen Institute of Artificial Intelligence & University of Massachusetts
+- arxiv: [https://arxiv.org/abs/1804.06026](https://arxiv.org/abs/1804.06026)
 
 # Sounds
 
@@ -925,9 +961,18 @@ further original research into a small, easy to use graphical interface.
 - youtube: [https://www.youtube.com/watch?v=A3ekFcZ3KNw](https://www.youtube.com/watch?v=A3ekFcZ3KNw)
 - mirror: [https://www.bilibili.com/video/av17210816/](https://www.bilibili.com/video/av17210816/)
 
+**PhoenixGo**
+
+- intro: Go AI program which implement the AlphaGo Zero paper
+- github: [https://github.com/Tencent/PhoenixGo](https://github.com/Tencent/PhoenixGo)
+
 **The future is here – AlphaZero learns chess**
 
 [https://en.chessbase.com/post/the-future-is-here-alphazero-learns-chess](https://en.chessbase.com/post/the-future-is-here-alphazero-learns-chess)
+
+**AlphaGo Zero Cheat Sheet**
+
+[https://applied-data.science/static/main/res/alpha_go_zero_cheat_sheet.png](https://applied-data.science/static/main/res/alpha_go_zero_cheat_sheet.png)
 
 # Chess
 

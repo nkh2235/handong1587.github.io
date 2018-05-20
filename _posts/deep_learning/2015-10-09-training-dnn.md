@@ -47,6 +47,12 @@ date: 2015-10-09
 
 [https://arxiv.org/abs/1709.06247](https://arxiv.org/abs/1709.06247)
 
+**Deep Learning using Rectified Linear Units (ReLU)**
+
+- intro: Adamson University
+- arxiv: [https://arxiv.org/abs/1803.08375](https://arxiv.org/abs/1803.08375)
+- github: [https://github.com/AFAgarap/relu-classifier](https://github.com/AFAgarap/relu-classifier)
+
 ## LReLU
 
 **Rectifier Nonlinearities Improve Neural Network Acoustic Models**
@@ -181,6 +187,10 @@ date: 2015-10-09
 - arxiv: [https://arxiv.org/abs/1710.05941](https://arxiv.org/abs/1710.05941)
 - reddit: [https://www.reddit.com/r/MachineLearning/comments/77gcrv/d_swish_is_not_performing_very_well/](https://www.reddit.com/r/MachineLearning/comments/77gcrv/d_swish_is_not_performing_very_well/)
 
+**Deep Learning with Data Dependent Implicit Activation Function**
+
+[https://arxiv.org/abs/1802.00168](https://arxiv.org/abs/1802.00168)
+
 ## Series on Initialization of Weights for DNN
 
 **Initialization Of Feedfoward Networks**
@@ -270,6 +280,12 @@ date: 2015-10-09
 
 - arxiv: [http://arxiv.org/abs/1603.01431](http://arxiv.org/abs/1603.01431)
 
+**Revisiting Batch Normalization For Practical Domain Adaptation**
+
+- intro: Pattern Recognition
+- keywords: Adaptive Batch Normalization (AdaBN)
+- arxiv: [https://arxiv.org/abs/1603.04779](https://arxiv.org/abs/1603.04779)
+
 **Implementing Batch Normalization in Tensorflow**
 
 - blog: [http://r2rt.com/implementing-batch-normalization-in-tensorflow.html](http://r2rt.com/implementing-batch-normalization-in-tensorflow.html)
@@ -297,6 +313,16 @@ date: 2015-10-09
 - intro: Mapillary Research
 - arxiv: [https://arxiv.org/abs/1712.02616](https://arxiv.org/abs/1712.02616)
 - github: [https://github.com/mapillary/inplace_abn](https://github.com/mapillary/inplace_abn)
+
+**Batch Kalman Normalization: Towards Training Deep Neural Networks with Micro-Batches**
+
+[https://arxiv.org/abs/1802.03133](https://arxiv.org/abs/1802.03133)
+
+**Decorrelated Batch Normalization**
+
+- intro: CVPR 2018
+- arxiv: [https://arxiv.org/abs/1804.08450](https://arxiv.org/abs/1804.08450)
+- github: [https://github.com/umich-vl/DecorrelatedBN](https://github.com/umich-vl/DecorrelatedBN)
 
 ### Backward pass of BN
 
@@ -329,6 +355,13 @@ date: 2015-10-09
 
 - arxiv: [https://arxiv.org/abs/1702.05870](https://arxiv.org/abs/1702.05870)
 
+## Group Normalization
+
+**Group Normalization**
+
+- intro: Facebook AI Research (FAIR)
+- arxiv: [https://arxiv.org/abs/1803.08494](https://arxiv.org/abs/1803.08494)
+
 # Loss Function
 
 **The Loss Surfaces of Multilayer Networks**
@@ -353,7 +386,9 @@ date: 2015-10-09
 - intro: Peking University & South China University of Technology & CMU & Shenzhen University
 - arxiv: [https://arxiv.org/abs/1612.02295](https://arxiv.org/abs/1612.02295)
 - github(Official. Caffe): [https://github.com/wy1iu/LargeMargin_Softmax_Loss](https://github.com/wy1iu/LargeMargin_Softmax_Loss)
-- github(MXNet): [https://github.com/luoyetx/mx-lsoftmax](https://github.com/luoyetx/mx-lsoftmax)
+- github: [https://github.com/luoyetx/mx-lsoftmax](https://github.com/luoyetx/mx-lsoftmax)
+- github: [https://github.com/tpys/face-recognition-caffe2](https://github.com/tpys/face-recognition-caffe2)
+- github: [https://github.com/jihunchoi/lsoftmax-pytorch](https://github.com/jihunchoi/lsoftmax-pytorch)
 
 **An empirical analysis of the optimization of deep network loss surfaces**
 
@@ -378,6 +413,16 @@ date: 2015-10-09
 - intro: UNIST & Postech & KAIST
 - arxiv: [https://arxiv.org/abs/1712.07834](https://arxiv.org/abs/1712.07834)
 
+**Rethinking Feature Distribution for Loss Functions in Image Classification**
+
+- intro: CVPR 2018 spotlight
+- arxiv: [https://arxiv.org/abs/1803.02988](https://arxiv.org/abs/1803.02988)
+
+**Ensemble Soft-Margin Softmax Loss for Image Classification**
+
+- intro: IJCAI 2018
+- arxiv: [https://arxiv.org/abs/1805.03922](https://arxiv.org/abs/1805.03922)
+
 # Learning Rate
 
 **No More Pesky Learning Rates**
@@ -399,6 +444,11 @@ date: 2015-10-09
 **Improving the way we work with learning rate.**
 
 [https://medium.com/@bushaev/improving-the-way-we-work-with-learning-rate-5e99554f163b](https://medium.com/@bushaev/improving-the-way-we-work-with-learning-rate-5e99554f163b)
+
+**WNGrad: Learn the Learning Rate in Gradient Descent**
+
+- intro: University of Texas at Austin & Facebook AI Research
+- arxiv: [https://arxiv.org/abs/1803.02865](https://arxiv.org/abs/1803.02865)
 
 # Convolution Filters
 
@@ -462,7 +512,12 @@ date: 2015-10-09
 
 [https://arxiv.org/abs/1801.07492](https://arxiv.org/abs/1801.07492)
 
-# Batch Size
+**Detail-Preserving Pooling in Deep Networks**
+
+- intro: CVPR 2018
+- arxiv: [https://arxiv.org/abs/1804.04076](https://arxiv.org/abs/1804.04076)
+
+# Mini-Batch
 
 **Online Batch Selection for Faster Training of Neural Networks**
 
@@ -502,6 +557,15 @@ date: 2015-10-09
 
 - intro: UC Berkeley & NVIDIA
 - arxiv: [https://arxiv.org/abs/1712.02029](https://arxiv.org/abs/1712.02029)
+
+**Hessian-based Analysis of Large Batch Training and Robustness to Adversaries**
+
+- intro: UC Berkeley & University of Texas
+- arxiv: [https://arxiv.org/abs/1802.08241](https://arxiv.org/abs/1802.08241)
+
+**Revisiting Small Batch Training for Deep Neural Networks**
+
+[https://arxiv.org/abs/1804.07612](https://arxiv.org/abs/1804.07612)
 
 # Optimization Methods
 
@@ -611,6 +675,20 @@ date: 2015-10-09
 - intro: CMU & UC Berkeley
 - arxiv: [https://arxiv.org/abs/1712.05577](https://arxiv.org/abs/1712.05577)
 
+## Adam
+
+**Adam: A Method for Stochastic Optimization**
+
+- intro: ICLR 2015
+- arxiv: [http://arxiv.org/abs/1412.6980](http://arxiv.org/abs/1412.6980)
+
+**Fixing Weight Decay Regularization in Adam**
+
+- intro: University of Freiburg
+- arxiv: [https://arxiv.org/abs/1711.05101](https://arxiv.org/abs/1711.05101)
+- github: [https://github.com/loshchil/AdamW-and-SGDW](https://github.com/loshchil/AdamW-and-SGDW)
+- github: [https://github.com/fastai/fastai/pull/46/files](https://github.com/fastai/fastai/pull/46/files)
+
 # Tensor Methods
 
 **Tensorizing Neural Networks**
@@ -681,6 +759,11 @@ date: 2015-10-09
 **Regularization and Optimization strategies in Deep Convolutional Neural Network**
 
 [https://arxiv.org/abs/1712.04711](https://arxiv.org/abs/1712.04711)
+
+**Regularizing Deep Networks by Modeling and Predicting Label Structure**
+
+- intro: CVPR 2018
+- arxiv: [https://arxiv.org/abs/1804.02009](https://arxiv.org/abs/1804.02009)
 
 ## Dropout
 
@@ -769,13 +852,6 @@ date: 2015-10-09
 
 [https://arxiv.org/abs/1711.03343](https://arxiv.org/abs/1711.03343)
 
-**Fixing Weight Decay Regularization in Adam**
-
-- intro: University of Freiburg
-- arxiv: [https://arxiv.org/abs/1711.05101](https://arxiv.org/abs/1711.05101)
-- github: [https://github.com/loshchil/AdamW-and-SGDW](https://github.com/loshchil/AdamW-and-SGDW)
-- github: [https://github.com/fastai/fastai/pull/46/files](https://github.com/fastai/fastai/pull/46/files)
-
 **Regularization of Deep Neural Networks with Spectral Dropout**
 
 [https://arxiv.org/abs/1711.08591](https://arxiv.org/abs/1711.08591)
@@ -831,6 +907,10 @@ date: 2015-10-09
 - intro: University of Notre Dame & University of Science and Technology of China
 - arxiv: [https://arxiv.org/abs/1612.01490](https://arxiv.org/abs/1612.01490)
 
+**ShakeDrop regularization**
+
+[https://arxiv.org/abs/1802.02375](https://arxiv.org/abs/1802.02375)
+
 # Gradient Descent
 
 **RMSProp: Divide the gradient by a running average of its recent magnitude**
@@ -839,11 +919,6 @@ date: 2015-10-09
 
 - intro: it was not proposed in a paper, in fact it was just introduced in a slide in Geoffrey Hinton's Coursera class 
 - slides: [http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf](http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf)
-
-**Adam: A Method for Stochastic Optimization**
-
-- intro: ICLR 2015
-- arxiv: [http://arxiv.org/abs/1412.6980](http://arxiv.org/abs/1412.6980)
 
 **Fitting a model via closed-form equations vs. Gradient Descent vs Stochastic Gradient Descent vs Mini-Batch Learning. What is the difference?(Normal Equations vs. GD vs. SGD vs. MB-GD)**
 
@@ -882,6 +957,10 @@ date: 2015-10-09
 - intro: IJCNN 2017 Accepted Paper, An extension of paper, "ADASECANT: Robust Adaptive Secant Method for Stochastic Gradient"
 - intro: Universite de Montreal & University of Oxford
 - arxiv: [https://arxiv.org/abs/1703.00788](https://arxiv.org/abs/1703.00788)
+
+**Accelerating Stochastic Gradient Descent**
+
+[https://arxiv.org/abs/1704.08227](https://arxiv.org/abs/1704.08227)
 
 **Gentle Introduction to the Adam Optimization Algorithm for Deep Learning**
 
@@ -1118,6 +1197,21 @@ date: 2015-10-09
 
 [https://arxiv.org/abs/1801.06665](https://arxiv.org/abs/1801.06665)
 
+**Data Augmentation Generative Adversarial Networks**
+
+- arxiv: [https://arxiv.org/abs/1711.04340](https://arxiv.org/abs/1711.04340)
+- github: [https://github.com/AntreasAntoniou/DAGAN](https://github.com/AntreasAntoniou/DAGAN)
+
+**BAGAN: Data Augmentation with Balancing GAN**
+
+[https://arxiv.org/abs/1803.09655](https://arxiv.org/abs/1803.09655)
+
+**Parallel Grid Pooling for Data Augmentation**
+
+- intro: The University of Tokyo & NTT Communications Science Laboratories
+- arxiv: [https://arxiv.org/abs/1803.11370](https://arxiv.org/abs/1803.11370)
+- github(Chainer): [https://github.com/akitotakeki/pgp-chainer](https://github.com/akitotakeki/pgp-chainer)
+
 ## Imbalanced Datasets
 
 **Investigation on handling Structured & Imbalanced Datasets with Deep Learning**
@@ -1253,6 +1347,12 @@ date: 2015-10-09
 - intro: UC Berkeley & Lawrence Berkeley National Laboratory
 - arxiv: [https://arxiv.org/abs/1712.04432](https://arxiv.org/abs/1712.04432)
 
+**Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training**
+
+- intro: ICLR 2018
+- intro: we find 99.9% of the gradient exchange in distributed SGD is redundant; we reduce the communication bandwidth by two orders of magnitude without losing accuracy
+- arxiv: [https://arxiv.org/abs/1712.01887](https://arxiv.org/abs/1712.01887)
+
 ## Projects
 
 **Theano-MPI: a Theano-based Distributed Training Framework**
@@ -1354,12 +1454,27 @@ date: 2015-10-09
 
 [https://arxiv.org/abs/1712.09196](https://arxiv.org/abs/1712.09196)
 
+**DeepDefense: Training Deep Neural Networks with Improved Robustness**
+
+[https://arxiv.org/abs/1803.00404](https://arxiv.org/abs/1803.00404)
+
+# Low-Precision Training
+
+**High-Accuracy Low-Precision Training**
+
+- intro: Cornell University & Stanford University
+- arxiv: [https://arxiv.org/abs/1803.03383](https://arxiv.org/abs/1803.03383)
+
 # Incremental Training
 
 **ClickBAIT: Click-based Accelerated Incremental Training of Convolutional Neural Networks**
 
 - arxiv: [https://arxiv.org/abs/1709.05021](https://arxiv.org/abs/1709.05021)
 - dataset: [http://clickbait.crossmobile.info/](http://clickbait.crossmobile.info/)
+
+**ClickBAIT-v2: Training an Object Detector in Real-Time**
+
+[https://arxiv.org/abs/1803.10358](https://arxiv.org/abs/1803.10358)
 
 # Papers
 

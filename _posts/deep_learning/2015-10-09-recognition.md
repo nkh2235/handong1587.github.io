@@ -138,6 +138,32 @@ date: 2015-10-09
 - intro: The University of Tokyo & RIKEN
 - arxiv: [https://arxiv.org/abs/1711.10284](https://arxiv.org/abs/1711.10284)
 
+**Co-domain Embedding using Deep Quadruplet Networks for Unseen Traffic Sign Recognition**
+
+- intro: AAAI 2018
+- arix:v[https://arxiv.org/abs/1712.01907](https://arxiv.org/abs/1712.01907)
+
+**µNet: A Highly Compact Deep Convolutional Neural Network Architecture for Real-time Embedded Traffic Sign Classification**
+
+[https://arxiv.org/abs/1804.00497](https://arxiv.org/abs/1804.00497)
+
+**Deep Predictive Coding Network for Object Recognition**
+
+[https://arxiv.org/abs/1802.04762](https://arxiv.org/abs/1802.04762)
+
+**Zero-shot Recognition via Semantic Embeddings and Knowledge Graphs**
+
+- intro: CVPR 2018. The Robotics Institute, Carnegie Mellon University
+- arxiv: [https://arxiv.org/abs/1803.08035](https://arxiv.org/abs/1803.08035)
+
+# Massive Classification
+
+**Accelerated Training for Massive Classification via Dynamic Class Selection**
+
+- intro: AAAI 2018. CUHK & SenseTime
+- keywords: HF-Softmax
+[https://github.com/yl-1993/hfsoftmax](https://github.com/yl-1993/hfsoftmax)
+
 # Multi-object Recognition
 
 **Multiple Object Recognition with Visual Attention**
@@ -182,8 +208,15 @@ date: 2015-10-09
 
 **Learning Deep Features via Congenerous Cosine Loss for Person Recognition**
 
+- keywords: COCO loss
 - arxiv: [https://arxiv.org/abs/1702.06890](https://arxiv.org/abs/1702.06890)
 - github: [https://github.com/sciencefans/coco_loss](https://github.com/sciencefans/coco_loss)
+
+**Rethinking Feature Discrimination and Polymerization for Large-scale Recognition**
+
+- intro: NIPS 2017 Deep Learning Workshop
+- keywords: COCO loss
+- arxiv: [https://arxiv.org/abs/1710.00870](https://arxiv.org/abs/1710.00870)
 
 **Person Recognition in Social Media Photos**
 
@@ -341,17 +374,6 @@ date: 2015-10-09
 
 # Attribute Recognition
 
-**Multi-attribute Learning for Pedestrian Attribute Recognition in Surveillance Scenarios**
-
-- keywords: DeepSAR / DeepMAR
-- paper: [http://or.nsfc.gov.cn/bitstream/00001903-5/417802/1/1000014103914.pdf](http://or.nsfc.gov.cn/bitstream/00001903-5/417802/1/1000014103914.pdf)
-- github: [https://github.com/kyu-sz/DeepMAR_deploy](https://github.com/kyu-sz/DeepMAR_deploy)
-
-**Robust Pedestrian Attribute Recognition for an Unbalanced Dataset using Mini-batch Training with Rarity Rate**
-
-- intro: Intelligent Vehicles Symposium 2016. Chubu University & Nagoya University, Japan
-- paper: [http://www.vision.cs.chubu.ac.jp/MPRG/C_group/C081_fukui2016.pdf](http://www.vision.cs.chubu.ac.jp/MPRG/C_group/C081_fukui2016.pdf)
-
 **Multi-task CNN Model for Attribute Prediction**
 
 - intro: ieee transaction paper
@@ -361,33 +383,45 @@ date: 2015-10-09
 
 [https://arxiv.org/abs/1604.07360](https://arxiv.org/abs/1604.07360)
 
-**Weakly-supervised Learning of Mid-level Features for Pedestrian Attribute Recognition and Localization**
-
-- arxiv: [https://arxiv.org/abs/1611.05603](https://arxiv.org/abs/1611.05603)
-- github: [https://github.com/kyu-sz/WPAL-network](https://github.com/kyu-sz/WPAL-network)
-
 **Generative Adversarial Models for People Attribute Recognition in Surveillance**
 
 - intro: AVSS 2017 oral
 - arxiv: [https://arxiv.org/abs/1707.02240](https://arxiv.org/abs/1707.02240)
-
-**A Jointly Learned Deep Architecture for Facial Attribute Analysis and Face Detection in the Wild**
-
-[https://arxiv.org/abs/1707.08705](https://arxiv.org/abs/1707.08705)
-
-**A Deep Cascade Network for Unaligned Face Attribute Classification**
-
-[https://arxiv.org/abs/1709.03851](https://arxiv.org/abs/1709.03851)
 
 **Attribute Recognition by Joint Recurrent Learning of Context and Correlation**
 
 - intro: ICCV 2017
 - arxiv: [https://arxiv.org/abs/1709.08553](https://arxiv.org/abs/1709.08553)
 
-**Co-domain Embedding using Deep Quadruplet Networks for Unseen Traffic Sign Recognition**
+# Pedestrian Attribute Recognition
 
-- intro: AAAI 2018
-- arix:v[https://arxiv.org/abs/1712.01907](https://arxiv.org/abs/1712.01907)
+**Multi-attribute Learning for Pedestrian Attribute Recognition in Surveillance Scenarios**
+
+- keywords: DeepSAR / DeepMAR
+- paper: [http://or.nsfc.gov.cn/bitstream/00001903-5/417802/1/1000014103914.pdf](http://or.nsfc.gov.cn/bitstream/00001903-5/417802/1/1000014103914.pdf)
+- github: [https://github.com/kyu-sz/DeepMAR_deploy](https://github.com/kyu-sz/DeepMAR_deploy)
+
+**Human Attribute Recognition by Deep Hierarchical Contexts**
+
+- intro: ECCV 2016
+- paper: [http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2016_human.pdf](http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2016_human.pdf)
+
+**Robust Pedestrian Attribute Recognition for an Unbalanced Dataset using Mini-batch Training with Rarity Rate**
+
+- intro: Intelligent Vehicles Symposium 2016. Chubu University & Nagoya University, Japan
+- paper: [http://www.vision.cs.chubu.ac.jp/MPRG/C_group/C081_fukui2016.pdf](http://www.vision.cs.chubu.ac.jp/MPRG/C_group/C081_fukui2016.pdf)
+
+**Weakly-supervised Learning of Mid-level Features for Pedestrian Attribute Recognition and Localization**
+
+- arxiv: [https://arxiv.org/abs/1611.05603](https://arxiv.org/abs/1611.05603)
+- github: [https://github.com/kyu-sz/WPAL-network](https://github.com/kyu-sz/WPAL-network)
+
+**Deep View-Sensitive Pedestrian Attribute Inference in an end-to-end Model**
+
+- intro: BMVC 2017
+- keywords: PETA, RAP and WIDER
+- arxiv: [https://arxiv.org/abs/1707.06089](https://arxiv.org/abs/1707.06089)
+- github: [https://github.com/asc-kit/vespa](https://github.com/asc-kit/vespa)
 
 # Clothes Recognition
 
